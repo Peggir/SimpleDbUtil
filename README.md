@@ -152,7 +152,11 @@ public List<Person> getAll() throws DbCallException {
 #### execute
 Simply executes your SQL-query. Use this for database insertion. In the following example we insert a new person.
 ```java
-public void insert(String name, int age, boolean isStudent, float score, Date submission) throws DbCallException {
+public void insert(String name,
+                   int age,
+                   boolean isStudent,
+                   float score,
+                   Date submission) throws DbCallException {
     new DbCall<>(
             database,
             "INSERT INTO \"person\" (\"name\", \"age\", \"isStudent\", \"score\", \"submissionDate\") VALUES " +
