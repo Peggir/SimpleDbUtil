@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Peggir/SimpleDbUtil.svg?branch=master)](https://travis-ci.org/Peggir/SimpleDbUtil)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fee6c8e874238496311f/maintainability)](https://codeclimate.com/github/Peggir/SimpleDbUtil/maintainability)
 
 # SimpleDbUtil - For Play! Framework
 ...
