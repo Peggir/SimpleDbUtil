@@ -72,7 +72,7 @@ Also note that the `database` object in the code examples are `play.db.Database`
 
 ### Retrieve data from the database
 #### hasResults
-Returns whether your query has one or more results. The following example has a query with two parameters (indicated by the question marks). `name` and `age` get safely injected into the statement (to prevent SQL injection). If your query has no parameters, then the third parameter of the `DbCall`-constructor can be removed.
+Returns whether your query has one or more results. The following example uses a query with two parameters (notice the question marks). `name` and `age` get safely injected into the statement (to prevent SQL-injection). If your query has no parameters, then the third parameter of the `DbCall`-constructor can be removed.
 ```java
 public boolean existsPerson(String name, int age) throws DbCallException {
     return new DbCall<>(
@@ -87,7 +87,7 @@ public boolean existsPerson(String name, int age) throws DbCallException {
 ```
 
 #### getOne
-Returns the mapped representation of the first result of your SQL-query. Here you need a `DbCallResultSetMapper` to map the result set to an object. SimpleDbUtil already provides to following: `BooleanResultSetMapper`, `DateResultSetMapper`, `FloatResultSetMapper`, `IntegerResultSetMapper`, `LongResultSetMapper` and `StringResultSetMapper`. You can create your own by implementing `DbCallResultSetMapper`. The following DbCall returns the age of the person with a given name.
+Returns the mapped representation of the first result of your SQL-query. Here you need a `DbCallResultSetMapper` to map the result set to an object. SimpleDbUtil already provides to following result set mappers: `BooleanResultSetMapper`, `DateResultSetMapper`, `FloatResultSetMapper`, `IntegerResultSetMapper`, `LongResultSetMapper` and `StringResultSetMapper`. You can create your own by implementing `DbCallResultSetMapper` (see example for `getAll`). The following DbCall returns the age of the person with a given name.
 ```java
 public int getAgeByName(String name) throws Exception {
     Optional<Integer> age = new DbCall<>(
@@ -106,7 +106,7 @@ public int getAgeByName(String name) throws Exception {
 ```
 
 #### getAll
-Returns a list of all mapped objected represented by the entire result set of your query. If your query has zero results then an empty list is returned. For we following example we first create a `PersonResultSetMapper` that maps the result set to a `Person`-object. You can also choose to do this in a lambda, but implementing it in a separate class give to the advantage to reuse your result set mapper.
+Returns a list of all mapped objects representing the entire result set of your query. If your query has zero results then an empty list is returned. For the following example we first create a `PersonResultSetMapper` that maps the result set to a `Person`-object. You can also choose to do this in a lambda, but implementing it in a separate class gives you the advantage to reuse your result set mapper.
 
 The result set mapper:
 ```java
