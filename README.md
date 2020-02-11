@@ -5,7 +5,7 @@
 Provides an easy to use interface to insert or retrieve data to/from your database from your Play! Framework application. It actually is syntactic sugar over Java's Connection class. It support parameterized queries for save data insertion, object mapping and more.
 
 ## Features
-* Execute SQL-queries
+* Execute (parameterized) SQL-queries
 * Map database result sets to objects
 * Insert data in the database
 * Retrieve data from the database
