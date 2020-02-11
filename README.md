@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Peggir/SimpleDbUtil.svg?branch=master)](https://travis-ci.org/Peggir/SimpleDbUtil)
+[![Coverage Status](https://coveralls.io/repos/github/Peggir/SimpleDbUtil/badge.svg?branch=master)](https://coveralls.io/github/Peggir/SimpleDbUtil?branch=master)
 
 # SimpleDbUtil - For Play! Framework
 ...
