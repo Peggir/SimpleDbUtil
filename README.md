@@ -33,4 +33,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-![Peggir](https://peggir.com/wp-content/uploads/2020/02/peggir-logo-blue-resized.png "Peggir")
+![Peggir](https://peggir.com/wp-content/uploads/2020/02/peggir-logo-blue-resized.png "Peggir" | width=200)
