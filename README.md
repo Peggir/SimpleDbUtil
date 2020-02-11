@@ -1,4 +1,4 @@
-Buikd/version/coverage
+[![Build Status](https://travis-ci.org/Peggir/SimpleDbUtil.svg?branch=master)](https://travis-ci.org/Peggir/SimpleDbUtil)
 
 # SimpleDbUtil - For Play! Framework
 ...
