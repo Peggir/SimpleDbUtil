@@ -16,12 +16,12 @@ Provides an easy to use interface to insert or retrieve data to/from your databa
 * Java 8
 
 ## Installation
-Add SimpleDbUtil to your project build tool dependencies (not yet available):
+Add SimpleDbUtil to your project build tool dependencies:
 ```
 <dependency>
     <groupId>com.peggir</groupId>
     <artifactId>SimpleDbUtil</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
