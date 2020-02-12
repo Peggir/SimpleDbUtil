@@ -6,7 +6,7 @@
 
     <groupId>com.peggir</groupId>
     <artifactId>SimpleDbUtil</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>SimpleDbUtil - For Play! Framework</name>
     <description>Easy database insertion and retrieval with object mapping. Made for the Play! Framework.</description>
