@@ -28,6 +28,7 @@ Add SimpleDbUtil to your project build tool dependencies:
 ### Versions
 | SimpleDbUtil  | Play          | Scala target  |
 | ------------- |:-------------:| -------------:|
+| 1.2.0         | 2.8.1         | 2.13          |
 | 1.1.0         | 2.7.4         | 2.13          |
 | 1.0.1         | 2.6.6         | 2.12          |
 
