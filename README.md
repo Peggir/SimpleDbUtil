@@ -22,9 +22,14 @@ Add SimpleDbUtil to your project build tool dependencies:
 <dependency>
     <groupId>com.peggir</groupId>
     <artifactId>SimpleDbUtil</artifactId>
-    <version>1.0.1</version>
+    <version>{VERSION}</version>
 </dependency>
 ```
+### Versions
+| SimpleDbUtil  | Play          | Scala target  |
+| ------------- |:-------------:| -------------:|
+| 1.1.0         | 2.7.4         | 2.13          |
+| 1.0.1         | 2.6.6         | 2.12          |
 
 ## Usage examples
 In the following examples we have a database with the following table:
