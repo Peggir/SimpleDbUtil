@@ -194,4 +194,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-<a href="https://peggir.com/"><img src="https://peggir.com/wp-content/uploads/2020/02/peggir-logo-blue-resized.png" width="200"></a>
+<a href="https://peggir.com/"><img src="https://peggir.com/assets/img/peggir/peggir-logo-blue.png" width="200"></a>
